@@ -1,0 +1,30 @@
+body {
+    background-image: url('loginpage1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#form {
+    width: 25%;
+    text-align: center;
+    font-style: bold;
+    margin: 320px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(115, 55, 172);
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust opacity here */
+}
+
+#btn {
+    color:
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    }   
+
+@media screen and (max-width: 700px) {
+    #form {
+        width: 65%;
+        padding: 40px;
+    }
+}
